@@ -1,7 +1,7 @@
-import { add, toUpper } from "./utils/index.js";
+import { add, toUpper, reverse } from "./utils/index.js";
 
 console.log(add(5, 10));
-console.log(toUpper("hello"));
+console.log(reverse(toUpper("hello")));
 
 // for search.js testing
 

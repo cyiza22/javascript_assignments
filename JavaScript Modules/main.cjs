@@ -1,4 +1,4 @@
-const { square, cube, sqrt } = require("./mathHelpers.js");
+const { square, cube, sqrt } = require("./mathHelpers.cjs");
 
 console.log("Square:", square(5));
 console.log("Cube:", cube(3));
